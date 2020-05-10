@@ -1,0 +1,25 @@
+.container {
+    margin-bottom: -80px;
+    margin-top: -20px;
+}
+#share{
+    margin-left: 25px;
+
+}
+#log-out {
+    float: right;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#bell-icon {
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.navbar-item{
+    font-size: 25px;
+}
+#search-form {
+    float: right;
+    /* margin-left: 60%; */
+}

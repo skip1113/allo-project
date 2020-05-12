@@ -6,6 +6,15 @@
     margin-left: 25px;
 
 }
+#sign {
+    float: right;
+    margin-left: 5px
+}
+#sign-in {
+    float: right;
+    margin-left: 10px;
+    font-size: 20px;
+}
 #log-out {
     float: right;
     margin-left: 10px;
@@ -16,10 +25,37 @@
     margin-right: 5px;
     font-size: 20px;
 }
+.hero-body {
+    padding-top: 20px;
+}
 .navbar-item{
     font-size: 25px;
 }
 #search-form {
     float: right;
     /* margin-left: 60%; */
+}
+#home {
+    font-size: 20px;
+}
+#resource {
+    font-size: 20px;
+}
+#career {
+    font-size: 20px;
+}
+#deps {
+    font-size: 20px;
+}
+#corp {
+    font-size: 20px;
+}
+#apps {
+    font-size: 20px;
+}
+#group {
+    font-size: 20px;
+}
+#rep {
+    font-size: 20px;
 }

@@ -7,6 +7,8 @@
     <title>AlloWeb 365</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -17,7 +19,10 @@
                 <div class="container">
                     <span class="fas fa-ellipsis-v"></span>
                     <span id="Share">SharePoint</span>
-
+                    <span id="sign">
+                        Sign in
+                    </span>
+                    <div class="fas fa-user-circle" id="sign-in"></div>
                     <div class="fas fa-sign-out-alt" id="log-out"></div>
 
                     <div class="far fa-bell" id="bell-icon"></div>
@@ -40,6 +45,7 @@
                             <span aria-hidden="true"></span>
                         </a>
                     </div>
+
                     <form id="search-form" style="margin-left: 60%;">
                         <div class="field has-addons" id="search-form">
                             <div class="control" id="search-form">
@@ -57,7 +63,92 @@
                         </div>
                     </form>
                 </nav>
-                
+                <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+                    <div class="navbar-start">
+                        <a class="navbar-item" id="home">
+                            Home
+                        </a>
+
+                        <!-- <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Overview
+                            </a>
+                            <a class="navbar-item">
+                                Elements
+                            </a>
+                            <a class="navbar-item">
+                                Components
+                            </a>
+                            <hr class="navbar-divider">
+                            <div class="navbar-item">
+                                Version 0.8.2
+                            </div>
+                        </div> -->
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="resource">
+                                Resources
+                            </a>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="apps">
+                                Applications
+                            </a>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="deps">
+                                Departments
+                            </a>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="group">
+                                Groups
+                            </a>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="career">
+                                Careers
+                            </a>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="rep">
+                                Reports
+                            </a>
+                        </div>
+                        <div class="navbar-start">
+                            <a class="navbar-item" id="corp">
+                                Corperate Compliance
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside class="menu">
+                            <p class="menu-label">
+                            Quick Links
+                            </p>
+                            <ul class="menu-list">
+                            <li><a>AlloCore</a></li>
+                            <li><a>AlloWeb Docs</a></li>
+                            <li><a>Community</a></li>
+                            <li><a>CornerStone Training</a></li>
+                            <li><a>LeaderShip Forum</a></li>
+                            <li><a>Smart Solve</a></li>
+                            <li><a>Trainers Corner</a></li>
+                            <li><a>365 Outlook</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <h4>Cash Flow Goal: / PDSA User Goal:</h4>
+                        <div class="progress">
+                            
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                </div>
+                        
             </div>
         </div>
     </section>
